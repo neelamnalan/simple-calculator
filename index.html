@@ -1,0 +1,43 @@
+﻿<html>
+
+<head>
+<link href="calc.css" rel="stylesheet" type="text/css">
+<script src="calc.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+<table>
+<tr><td>
+<table border="2">
+	<tr>
+		<td colspan="3">Enter First number<br><input type="text" id="num1"/></td>
+		<td style="width: 16px"><button onclick="add()">+</button><br>
+		<button onclick="minus()">&nbsp;-</button></td>
+		
+	</tr>
+	<tr>
+	<td colspan="3">Enter Second Number<br><input type="text" id="num2"/></td>
+	<td style="width: 16px"><button onclick="division()">&nbsp;/</button><br>	
+		<button onclick="multi()">&nbsp;*</button></td>
+	</tr>
+	<tr height="40pt">
+	<td colspan="3" align="left" bgcolor="aqua"><label id="ans"></label></td>	
+	<td>
+		<input type="reset" value="C" onclick="location.reload()"></td>
+	</tr>
+</table>
+</td>
+<td>
+<h3>
+<ol>
+<li>Enter first number</li>
+<li>Enter Seocnd Number</li>
+<li>Click sign + or - or * or /</li></ol>
+</h3>
+</td>
+</tr>
+</table>
+</body>
+
+</html>

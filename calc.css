@@ -1,0 +1,13 @@
+﻿table {
+	border-color:black; border:thick
+}
+label{
+	background-color:aqua;
+	color:navy;
+	font-weight:bold;
+	font-size:medium;
+	text-align:left
+}
+h3{
+	color:maroon
+}
